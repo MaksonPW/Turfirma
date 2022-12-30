@@ -1,0 +1,82 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: url(/images/bg-image-log.jpeg);
+    background-size: cover;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 250px;
+    align-items: center;
+    margin: auto;
+    margin-top: 120px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: inset -6px -6px rgba(0, 0, 0, 0.5);
+}
+
+.box h1{
+    text-transform: uppercase;
+    margin-top: 0;
+    text-align: left;
+    font-size: 36px;
+    border-bottom: 3px solid rgb(32, 136,75);
+    margin-bottom: 20px;
+    padding-bottom: 2px;
+}
+
+.input-box{
+    width: 100%;
+    overflow: auto;
+    font-size: 22px;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-bottom: 2px solid rgb(172, 95, 32);
+    transition: 0.2s;
+}
+
+.input-box:focus-within{
+    border-bottom: 2px solid rgb(250, 179, 48);
+}
+
+.input-box i{
+    width: 28px;
+    float: left;
+    text-align: center;
+}
+
+.input-box input{
+    border: none;
+    outline: none;
+    background: none;
+    color: rgb(252, 252, 252);
+    font-size: 18px;
+    width: 85%;
+    float: left;
+}
+
+::-webkit-input-placeholder{
+    color:#acd8d3
+}
+
+button{
+    background: none;
+    width: 100%;
+    border: 3px solid rgb(32, 136,75);
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+    padding: 7px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background: rgba(128, 128, 128, 0.3);
+    border: 3px solid rgb(47, 216, 117);
+}
+

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Login Form</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/styleLog.css">
+    </head>
+    <body>      
+        <form action="/templates/views/indexLog.hbs" method="post" class="box">
+            <h1>Авторизация</h1>
+            <div class="input-box">
+                <i class="usersecret" aria-hidden="true"></i>
+                <input type="text" name="username" placeholder="Username">
+            </div>
+            <div class="input-box">
+                <i class="lock" aria-hidden="true"></i>
+                <input type="password" name="password" placeholder="Password">
+            </div>
+            <a href="/main" type="submit">Войти</a>
+        </form>  
+    </body>
+</html>
